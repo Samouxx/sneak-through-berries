@@ -1,12 +1,12 @@
 # Sneak Through Berries (26.x port)
 
-> **Unofficial port to Minecraft 26.3 (Fabric).**
+> **Unofficial port to Minecraft 26.1 - 26.2 (Fabric).**
 > This is a modified version of [Sneak Through Berries](https://github.com/Trikzon/sneak-through-berries) by **Trikzon**,
 > ported by **Samouxx** in November 2026. The original mod stopped at Minecraft 1.21.5.
 > Please report problems with this port [here](https://github.com/Samouxx/sneak-through-berries/issues), not to the original author.
 >
 > Changes from the original 21.5.0:
-> - ported to Minecraft 26.3, Fabric only (the NeoForge build was dropped), single Gradle module;
+> - ported to Minecraft 26.1 - 26.2, Fabric only (the NeoForge build was dropped), single Gradle module;
 > - the mod itself is unchanged: sneak through Sweet Berry bushes and you take no damage.
 >
 > License: LGPL-3.0-or-later, like the original ([LICENSE.md](LICENSE.md), which builds on the GPL-3.0 in [COPYING](COPYING)).

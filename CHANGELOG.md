@@ -1,6 +1,6 @@
 # Changelog
-## v26.3.0+port
-- Unofficial port to MC 26.3 by Samouxx, Fabric only.
+## v26.2.0+port
+- Unofficial port to MC 26.1 - 26.2 by Samouxx, Fabric only.
 
 ## v21.5.0
 - Update to MC 1.21.5.
