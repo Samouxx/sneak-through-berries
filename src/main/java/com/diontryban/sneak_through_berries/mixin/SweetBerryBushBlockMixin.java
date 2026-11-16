@@ -2,6 +2,7 @@
  * This file is part of Sneak Through Berries.
  * A copy of this program can be found at https://github.com/Trikzon/sneak-through-berries.
  * Copyright (C) 2023 Dion Tryban
+ * Modified in November 2026 by Samouxx: ported to Minecraft 26.3 (unofficial port).
  *
  * Sneak Through Berries is free software: you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public License as
@@ -46,6 +47,7 @@ public abstract class SweetBerryBushBlockMixin extends VegetationBlock implement
             BlockPos pos,
             Entity entity,
             InsideBlockEffectApplier insideBlockEffectApplier,
+            boolean isPrecise,
             CallbackInfo ci
     ) {
         if (entity.isSteppingCarefully() && entity instanceof LivingEntity) {
