@@ -1,6 +1,6 @@
 # Changelog
-## v21.11.0+port
-- Unofficial port to MC 1.21.10 - 1.21.11 by Samouxx, Fabric only.
+## v21.9.0+port
+- Unofficial port to MC 1.21.6 - 1.21.9 by Samouxx, Fabric only.
 
 ## v21.5.0
 - Update to MC 1.21.5.
