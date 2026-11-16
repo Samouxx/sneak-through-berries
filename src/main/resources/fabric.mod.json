@@ -22,8 +22,8 @@
         "sneak_through_berries.mixins.json"
     ],
     "depends": {
-        "fabricloader": ">=${loader_version}",
-        "minecraft": ">=26.1 <26.3",
-        "java": ">=25"
+        "fabricloader": ">=0.16.14",
+        "minecraft": ">=1.21.10 <=1.21.11",
+        "java": ">=21"
     }
 }

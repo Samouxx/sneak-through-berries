@@ -1,5 +1,5 @@
 plugins {
-    id 'net.fabricmc.fabric-loom' version "${loom_version}"
+    id 'net.fabricmc.fabric-loom-remap' version "${loom_version}"
 }
 
 base {
@@ -7,9 +7,10 @@ base {
 }
 
 dependencies {
-    // Minecraft 26.x is no longer obfuscated: no mappings line, the game already uses Mojang's names
+    // Before 26.x the game is obfuscated: Loom translates from Mojang's official names, the same as in the 26.x code
     minecraft "com.mojang:minecraft:${minecraft_version}"
-    implementation "net.fabricmc:fabric-loader:${loader_version}"
+    mappings loom.officialMojangMappings()
+    modImplementation "net.fabricmc:fabric-loader:${loader_version}"
 }
 
 processResources {
@@ -23,7 +24,7 @@ processResources {
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = "UTF-8"
-    options.release = 25
+    options.release = 21
 }
 
 java {
